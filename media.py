@@ -1,6 +1,7 @@
 import webbrowser
 
 
+# class definition holds movie data, and opens trailer
 class Movie():
     """ This is some documentation for Movie()"""
     VALID_RATINGS = ['G', 'PG', 'PG-13', 'R']
