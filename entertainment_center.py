@@ -1,9 +1,6 @@
 import media
 import fresh_tomatoes
 
-
-
-
 beavis_and_butthead = media.Movie("Beavis and Butthead do America",
                                   "Beavis and Butthead lose their television",
                                   "http://www.gstatic.com/tv/thumb/movieposters/18853/p18853_p_v8_aa.jpg",
@@ -33,5 +30,6 @@ the_matrix = media.Movie("The Matrix",
                          "You know what this movie is about",
                          "http://t0.gstatic.com/images?q=tbn:ANd9GcQq3pIz-aKgkmYX1dJ-EL-AlHSPcOO7wdqRIJ5gJy9qNinXpmle",
                          "https://youtu.be/vKQi3bBA1y8")
+
 movies = [war_games, the_matrix, beavis_and_butthead, fight_club, tron_legacy, zombie_land, ]
 fresh_tomatoes.open_movies_page(movies)
